@@ -1,0 +1,16 @@
+const AccountID = 1234
+let Accountemil = "MAHAJANYASH35@GMAIL.COM" 
+var AccountPASSWORD = "12"
+Accountcity = "pnhrpur"
+
+
+Accountemil = "rAju@gmil.com"
+AccountPASSWORD = "1229939923"
+Accountcity = "SOLAPUR"
+let AccountSTATE;
+
+console.log(AccountID);
+
+console.table([AccountPASSWORD,Accountemil,Accountcity,AccountSTATE]);
+/* IN JS WE NOT USE THE VAR 
+    BECUSE OF THE ISSUE IN BLOCK SCOPE AND FUNCTINAL SCOPE  */
