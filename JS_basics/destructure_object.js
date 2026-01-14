@@ -1,0 +1,20 @@
+
+const COURES = {
+    COURESNAME : "JS",
+    FEES : "1000",
+    COURESTECHAR :"HITESH" 
+
+}
+
+//console.log(
+// COURES.COURESTECHAR)
+
+const {COURESTECHAR : tech}= COURES
+console.log(tech);
+//WE CAN  DESTRUCTUE OBJECT USING  THIS
+
+
+
+//API
+// IT IS THE SERVICES FATCH  BY THE USER  
+//WHICH IS STORED AS AN JSON FORMAT
