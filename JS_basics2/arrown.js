@@ -28,9 +28,20 @@
 
 //ARROW FUNCTION
 
-const CHAI =()=> {
-    let USERNAME= "YASH"
-    console.log(this);
+const CHAI =(num1,num2)=> {
     
-
+  return num1+num2;
 }
+//WHEN WE USE {}==  WE HAVE TO WRITE A RETRUN 
+console.log
+(CHAI(3,44))
+
+//THIS IS ARROW FUN 
+
+
+//IMPLICIT RETRUN====
+
+// WHENUSE ( THEN NOT USE RETRUN)
+
+const YY = (NUMM,NUMMM)=> ({USERNAME : "YASSH"})
+console.log(YY(3,45));
