@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: black;color: aliceblue;">
+    <UL class="LIST">
+        <LI>JAVA_SCRIPT</LI>
+    </UL>
+    
+</body>
+<SCRipt>
+    function ADDLANG(LANGNAME) {
+        const LI = document.createElement("LI")
+        LI.innerHTML =`${LANGNAME}`
+
+        document.querySelector(".LIST").appendChild(LI)
+        
+
+    }ADDLANG("PYTHON")
+    ADDLANG("CPP")
+
+
+
+    function ADDOPTIMIZED(LANGNAME) {
+        const LI = document.createElement("LI")
+        LI.appendChild(document.createTextNode(LANGNAME))
+        document.querySelector(".LIST").appendChild(LI)
+        
+    }
+     ADDOPTIMIZED('JAVA')
+
+     //EDIT
+     
+
+</SCRipt>
+</html>
