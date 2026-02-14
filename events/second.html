@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>open with live serverr</title>
+</head>
+<body>
+    <h1>open with live serrver</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    const fun = function(){
+        console.log("java script");
+    
+    }
+
+    const change = function(){
+        document.querySelector("h1").innerHTML="best js l"
+    }
+   const changme = setTimeout(change,2000)
+    
+
+    document.querySelector("#stop").addEventListener("click",function(){
+        clearTimeout(changme)
+        console.log("stopeddd");
+
+    })
+</script>
+</html>
