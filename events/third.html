@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>JAVA_SCRIPT_WITH_GITHUB</H1>
+    <button id="stop">stop</button>
+     <button id="start">start</button>
+</body>
+<script>
+    const fun = function(){
+        console.log("yaash",Date.now());
+        
+    }
+    let intervall ;
+    
+    document.querySelector("#stop").addEventListener("click",function(){
+         clearInterval(intervall)
+        console.log("stopppppp");
+        
+    })
+
+    document.querySelector("#start").addEventListener("click",function(){
+      intervall = setInterval(fun,2000)
+        console.log("start");
+        
+    })
+
+</script>
+</html>
